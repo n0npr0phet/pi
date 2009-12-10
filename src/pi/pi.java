@@ -7,7 +7,7 @@ public class pi {
         int digits = Integer.parseInt(args[0]);
         String pii = computePi(digits).toString();
 
-        System.out.println(pii);
+        System.out.println("p1="+pii);
     }
     /** constants used in pi computation */
     private static final BigDecimal FOUR = BigDecimal.valueOf(4);
