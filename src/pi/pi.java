@@ -5,9 +5,9 @@ import java.math.BigDecimal;
 public class pi {
     public static void main(String args[]) throws NumberFormatException {
         int digits = Integer.parseInt(args[0]);
-        String pi = computePi(digits).toString();
+        String pii = computePi(digits).toString();
 
-        System.out.println(pi);
+        System.out.println(pii);
     }
     /** constants used in pi computation */
     private static final BigDecimal FOUR = BigDecimal.valueOf(4);
